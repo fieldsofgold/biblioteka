@@ -15,22 +15,22 @@
             <form:form modelAttribute="ksiazka">
                 <table class="b">
                     <tr class="b">
-                        <td class="b">Tytu&#322;:</td>     <td class="b"><form:input required="true" path="tytul" /></td>
+                        <td class="b">Tytu&#322;:</td>     <td class="b"><form:input path="tytul" /></td>
                     </tr>
                     <tr class="b">
-                        <td class="b">Opis:</td>      <td class="b"><form:input required="true" path="opis" /></td>
+                        <td class="b">Opis:</td>      <td class="b"><form:input path="opis" /></td>
                     </tr>
                     <tr class="b">
-                        <td class="b">Autor:</td>      <td class="b"><form:input required="true" path="autor" /></td>
+                        <td class="b">Autor:</td>      <td class="b"><form:input path="autor" /></td>
                     </tr>
                     <tr class="b">
-                        <td class="b">Kraj:</td>      <td class="b"><form:input required="true" path="kraj" /></td>
+                        <td class="b">Kraj:</td>      <td class="b"><form:input path="kraj" /></td>
                     </tr>
                     <tr class="b">
-                        <td class="b">Ilosc:</td>     <td class="b"><form:input type="number" path="ilosc" /></td>
+                        <td class="b">Ilosc:</td>     <td class="b"><form:input path="ilosc" /></td>
                     </tr>
                     <tr class="b">
-                        <td class="b">Kategoria:</td> <td class="b"><form:input required="true" path="kategoria" /></td>
+                        <td class="b">Kategoria:</td> <td class="b"><form:input path="kategoria" /></td>
                     </tr>
                     <tr class="b">
                         <td class="b"></td> <td class="b"></td>
